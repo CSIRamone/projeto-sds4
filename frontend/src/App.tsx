@@ -1,5 +1,5 @@
 import BarChart from "components/BarChart";
-import DataTable from "components/DataTable";
+import DataTableV from "components/DataTableV";
 import DonutChart from "components/DonutChart";
 import Footer from "components/Footer/Index";
 import NavBar from "components/NavBar/Index";
@@ -24,7 +24,7 @@ const App = () => {
         <div className="py-3">
            <h2 className="text-primary">Todas as Vendas</h2>
         </div>
-        <DataTable />
+        <DataTableV />
       </div>
       <Footer />
     </>

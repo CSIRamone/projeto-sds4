@@ -1,4 +1,4 @@
-const DataTable = () => {
+const DataTableV = () => {
     return (
         <div className="table-responsive">
             <table className="table table-striped table-sm">
@@ -88,4 +88,4 @@ const DataTable = () => {
     );
 }
 
-export default DataTable;
+export default DataTableV;
